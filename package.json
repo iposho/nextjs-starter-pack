@@ -1,0 +1,34 @@
+{
+  "name": "nirnzee-front",
+  "version": "0.0.1",
+  "description": "Next.js simple starter pack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "author": " <Pavel Kuzyakin> (kuzyakin.me)",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.0.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-progressbar": "^1.0.0",
+    "next-size": "^2.0.2",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "postcss-import": "^12.0.1"
+  }
+}
