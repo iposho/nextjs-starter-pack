@@ -1,7 +1,7 @@
 {
-  "name": "nirnzee-front",
+  "name": "nextjs-starter-pack",
   "version": "0.0.1",
-  "description": "Next.js simple starter pack",
+  "description": "Next.js simple starter pack with SASS and few plugins",
   "main": "index.js",
   "scripts": {
     "dev": "next",

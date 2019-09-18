@@ -19,12 +19,6 @@ const nextConfig = {
 module.exports = withPlugins([
   [withSize],
   [withProgressBar],
-  [withSass, {
-    cssModules: true,
-    cssLoaderOptions: {
-      importLoaders: 1,
-      localIdentName: '[local]___[hash:base64:5]',
-    }
-  }],
+  [withSass],
   [withCSS],
 ], nextConfig);
